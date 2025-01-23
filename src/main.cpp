@@ -30,7 +30,7 @@ String getRelayStatus() {
   for (int i = 0; i < NUM_RELAYS; i++) {
     String relayKey = "relay" + String(i + 1);
     // Read pin state and invert for active LOW logic
-    int state = digitalRead(RELAY_PINS[i]) == LOW ? 1 : 0;
+    int state = digitalRead(RELAY_PINS[i]) == LOW ? 0 : 1;
     status[relayKey] = state;
   }
   
