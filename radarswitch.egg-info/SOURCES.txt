@@ -1,0 +1,8 @@
+README.md
+setup.py
+radarswitch/__init__.py
+radarswitch.egg-info/PKG-INFO
+radarswitch.egg-info/SOURCES.txt
+radarswitch.egg-info/dependency_links.txt
+radarswitch.egg-info/requires.txt
+radarswitch.egg-info/top_level.txt
